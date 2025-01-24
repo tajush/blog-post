@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import Blog from "./blog";
+import Blog from "./Blog";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
    <div>
-    <Blog/>
+   <Blog/>
    </div>
   );
 }
